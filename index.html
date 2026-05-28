@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Manali Adventure Trip 2026</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f4f7fb;
+color:#222;
+line-height:1.7;
+overflow-x:hidden;
+}
+
+/* HERO SECTION */
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+color:white;
+}
+
+.hero{
+max-width:900px;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.3rem;
+margin-bottom:30px;
+}
+
+.hero .tag{
+display:inline-block;
+background:#ffffff22;
+padding:10px 20px;
+border-radius:30px;
+backdrop-filter:blur(6px);
+margin:5px;
+}
+
+/* GENERAL */
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:60px 0;
+}
+
+.section-title{
+font-size:2.5rem;
+margin-bottom:30px;
+color:#0b3954;
+text-align:center;
+}
+
+/* OVERVIEW CARDS */
+
+.overview{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0077b6;
+}
+
+/* TIMELINE */
+
+.timeline{
+position:relative;
+margin-top:40px;
+}
+
+.timeline::before{
+content:'';
+position:absolute;
+left:50%;
+top:0;
+transform:translateX(-50%);
+width:4px;
+height:100%;
+background:#90e0ef;
+}
+
+.day{
+width:45%;
+background:white;
+padding:25px;
+margin-bottom:40px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+position:relative;
+}
+
+.day:nth-child(odd){
+left:0;
+}
+
+.day:nth-child(even){
+left:55%;
+}
+
+.day h2{
+color:#023e8a;
+margin-bottom:10px;
+}
+
+.date{
+display:inline-block;
+background:#0077b6;
+color:white;
+padding:6px 14px;
+border-radius:20px;
+font-size:0.9rem;
+margin-bottom:15px;
+}
+
+ul{
+padding-left:20px;
+}
+
+.highlight{
+color:#d62828;
+font-weight:600;
+}
+
+/* CAFE HIGHLIGHT */
+
+.cafe-highlight{
+margin-top:18px;
+padding:16px;
+background:linear-gradient(135deg,#fff4e6,#ffe0b2);
+border-left:5px solid #ff8c42;
+border-radius:14px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.cafe-highlight h4{
+color:#d35400;
+margin-bottom:10px;
+font-size:1.05rem;
+}
+
+.cafe-highlight p{
+margin-bottom:10px;
+font-size:0.95rem;
+color:#444;
+}
+
+.cafe-highlight strong{
+color:#6d4c41;
+}
+
+/* TABLE */
+
+.budget-table{
+width:100%;
+border-collapse:collapse;
+margin-top:30px;
+background:white;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.budget-table th,
+.budget-table td{
+padding:16px;
+border-bottom:1px solid #eee;
+text-align:left;
+}
+
+.budget-table th{
+background:#0077b6;
+color:white;
+}
+
+/* NOTES */
+
+.notes{
+background:#fff3cd;
+padding:30px;
+border-radius:18px;
+margin-top:40px;
+}
+
+.badge{
+display:inline-block;
+padding:8px 14px;
+border-radius:20px;
+background:#caf0f8;
+margin:6px;
+font-size:0.9rem;
+}
+
+/* FOOTER */
+
+footer{
+background:#0b3954;
+color:white;
+text-align:center;
+padding:40px 20px;
+margin-top:60px;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.timeline::before{
+left:10px;
+}
+
+.day{
+width:100%;
+left:0 !important;
+padding-left:40px;
+}
+
+.hero h1{
+font-size:2.5rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>🏔️ Manali Adventure Trip 2026</h1>
+
+<p>
+Hyderabad → Delhi → Manali → Jispa → Sissu → Koksar → Chandratal → Kullu → Kasol → Delhi → Hyderabad
+</p>
+
+<div class="tag">10 Days Adventure</div>
+<div class="tag">Mountains • Cafes • Roads • Memories ❤️</div>
+
+</div>
+
+</header>
+
+<!-- OVERVIEW -->
+
+<section class="container">
+
+<h2 class="section-title">✨ Trip Overview</h2>
+
+<div class="overview">
+
+<div class="card">
+<h3>📍 Main Destinations</h3>
+<p>
+Delhi, Old Manali, Jispa, Sissu, Koksar, Chandratal, Rohtang Pass, Kullu, Kasol & Manikaran Sahib
+</p>
+</div>
+
+<div class="card">
+<h3>🛵 Travel Style</h3>
+<p>
+Train + Volvo + Govt Bus + Bike/Scooty + Walking Trails + Adventure Activities
+</p>
+</div>
+
+<div class="card">
+<h3>💸 Estimated Budget</h3>
+<p>
+Approx ₹46,000 for 2 People
+</p>
+</div>
+
+<div class="card">
+<h3>🌦️ Weather</h3>
+<p>
+Cool mornings, pleasant afternoons & possible rain showers in June.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ITINERARY -->
+
+<section class="container">
+
+<h2 class="section-title">🧭 Full Day Wise Itinerary</h2>
+
+<div class="timeline">
+
+<!-- DAY 1 -->
+
+<div class="day">
+
+<div class="date">May 29, 2026</div>
+
+<h2>🚆 Day 1 – Hyderabad → Delhi</h2>
+
+<ul>
+<li>Final packing & snacks for train</li>
+<li>Train No: <span class="highlight">12707</span></li>
+<li>Departure: <span class="highlight">4:20 PM</span></li>
+<li>Overnight train journey</li>
+</ul>
+
+</div>
+
+<!-- DAY 2 -->
+
+<div class="day">
+
+<div class="date">May 30, 2026</div>
+
+<h2>🚌 Day 2 – Delhi → Manali</h2>
+
+<ul>
+<li>Arrival at Delhi around 6:35 PM</li>
+<li>Metro to Kashmiri Gate ISBT</li>
+<li>Overnight Volvo Bus to Manali</li>
+<li>First mountain weather experience 🌲</li>
+</ul>
+
+</div>
+
+<!-- DAY 3 -->
+
+<div class="day">
+
+<div class="date">May 31, 2026</div>
+
+<h2>🏡 Day 3 – Settle Into Manali</h2>
+
+<ul>
+<li>Hotel check-in & full rest day</li>
+<li>Acclimatization walk in Old Manali</li>
+<li>Riverside chill & photography</li>
+</ul>
+
+<div class="cafe-highlight">
+
+<h4>🍜 Food & Cafe Stops</h4>
+
+<p>
+<strong>Tenzin Dhaba</strong><br>
+Budget Tibetan comfort food — famous for momos & thukpa.
+</p>
+
+<p>
+<strong>Dylan's Toasted & Roasted Coffee House</strong><br>
+Cozy café with coffee, desserts & relaxed mountain vibes.
+</p>
+
+</div>
+
+</div>
+
+<!-- DAY 4 -->
+
+<div class="day">
+
+<div class="date">June 1, 2026</div>
+
+<h2>🏔️ Day 4 – Jispa & Sissu Expedition</h2>
+
+<ul>
+<li>Ride through Atal Tunnel</li>
+<li>Visit Jispa scenic valley</li>
+<li>Explore Sissu riverside & waterfall areas</li>
+<li>Photography stops throughout journey</li>
+<li>Return to Manali by evening</li>
+</ul>
+
+<div class="cafe-highlight">
+
+<h4>🍽️ Dinner Stop</h4>
+
+<p>
+<strong>Rocky's Cafe</strong><br>
+Perfect relaxed dinner place after long mountain drive.
+</p>
+
+</div>
+
+</div>
+
+<!-- DAY 5 -->
+
+<div class="day">
+
+<div class="date">June 2, 2026</div>
+
+<h2>🏕️ Day 5 – Koksar & Chandratal Adventure</h2>
+
+<ul>
+<li>Early morning ride towards Koksar</li>
+<li>Explore Chandratal region viewpoints</li>
+<li>Road trip photography</li>
+<li>High altitude Himalayan landscapes</li>
+</ul>
+
+<div class="cafe-highlight">
+
+<h4>☕ Food Stops</h4>
+
+<p>
+<strong>Mountain Dhabas & Tea Stops</strong><br>
+Maggi, chai, omelettes & quick Himalayan snacks during ride.
+</p>
+
+</div>
+
+</div>
+
+<!-- DAY 6 -->
+
+<div class="day">
+
+<div class="date">June 3, 2026</div>
+
+<h2>🛕 Day 6 – Rohtang Pass + Manali Explore</h2>
+
+<ul>
+<li>Morning trip to Rohtang Pass</li>
+<li>Snow viewpoints & scenic stops</li>
+<li>Explore Hadimba Devi Temple</li>
+<li>Forest walk & Old Manali cafes</li>
+<li>Evening riverside relaxation</li>
+</ul>
+
+<div class="cafe-highlight">
+
+<h4>🌊 Riverside Dinner</h4>
+
+<p>
+<strong>Cafe 1947</strong><br>
+Famous riverside café with cozy ambience and mountain vibe.
+</p>
+
+<p>
+Budget Tip: Share one main course + drink + dessert.
+</p>
+
+</div>
+
+</div>
+
+<!-- DAY 7 -->
+
+<div class="day">
+
+<div class="date">June 4, 2026</div>
+
+<h2>🌲 Day 7 – Kullu Exploration</h2>
+
+<ul>
+<li>River views & valley landscapes</li>
+<li>Local market exploration</li>
+<li>Optional rafting activities</li>
+<li>Cafe hopping & bakery stops</li>
+<li>Photography & shopping</li>
+</ul>
+
+<div class="cafe-highlight">
+
+<h4>🍰 Cafe & Bakery Stops</h4>
+
+<p>
+<strong>Me Garage Cafe & Bakery</strong><br>
+Great for bakery snacks, coffee & evening chill.
+</p>
+
+</div>
+
+</div>
+
+<!-- DAY 8 -->
+
+<div class="day">
+
+<div class="date">June 5, 2026</div>
+
+<h2>🌲 Day 8 – Kasol + Manikaran Sahib</h2>
+
+<ul>
+<li>Travel from Manali to Kasol</li>
+<li>Rent bike in Kasol</li>
+<li>Parvati Valley viewpoints</li>
+<li>Visit Manikaran Sahib</li>
+<li>Night/Evening bus from Kasol to Delhi</li>
+</ul>
+
+<div class="cafe-highlight">
+
+<h4>🍜 Kasol Food & Stay</h4>
+
+<p>
+<strong>Cafe By The Hidden Tribe</strong><br>
+Relaxed dinner café with classic Kasol vibes.
+</p>
+
+<p>
+<strong>Drifter's Inn & Cafe</strong><br>
+Convenient stay + café combo for overnight comfort.
+</p>
+
+</div>
+
+</div>
+
+<!-- DAY 9 -->
+
+<div class="day">
+
+<div class="date">June 6, 2026</div>
+
+<h2>🚆 Day 9 – Delhi → Hyderabad</h2>
+
+<ul>
+<li>Reach Delhi from Kasol</li>
+<li>Buffer time for traffic delays</li>
+<li>If tickets available → board train to Hyderabad</li>
+<li>If not available → stay in Delhi & travel next day</li>
+<li>Approx train duration: 26 hours</li>
+</ul>
+
+</div>
+
+<!-- DAY 10 -->
+
+<div class="day">
+
+<div class="date">June 7, 2026</div>
+
+<h2>🏁 Day 10 – Hyderabad Arrival</h2>
+
+<ul>
+<li>Arrival at Hyderabad</li>
+<li>Trip ends with memories ❤️</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BUDGET -->
+
+<section class="container">
+
+<h2 class="section-title">💰 Budget Breakdown</h2>
+
+<table class="budget-table">
+
+<tr>
+<th>Expense</th>
+<th>Estimated Cost</th>
+</tr>
+
+<tr>
+<td>Train Hyderabad ↔ Delhi</td>
+<td>₹9,600</td>
+</tr>
+
+<tr>
+<td>Delhi → Manali Bus</td>
+<td>₹3,200</td>
+</tr>
+
+<tr>
+<td>Kasol → Delhi Bus</td>
+<td>₹4,000</td>
+</tr>
+
+<tr>
+<td>Metro Expenses</td>
+<td>₹200</td>
+</tr>
+
+<tr>
+<td>Hotel Stay</td>
+<td>₹7,500</td>
+</tr>
+
+<tr>
+<td>Scooty/Bike Rent</td>
+<td>₹4,500</td>
+</tr>
+
+<tr>
+<td>Fuel</td>
+<td>₹2,000</td>
+</tr>
+
+<tr>
+<td>Food + Train Food</td>
+<td>₹11,000</td>
+</tr>
+
+<tr>
+<td>Miscellaneous</td>
+<td>₹5,000</td>
+</tr>
+
+<tr>
+<th>Total Budget</th>
+<th>₹46,000</th>
+</tr>
+
+</table>
+
+</section>
+
+<!-- ACTIVITIES -->
+
+<section class="container">
+
+<h2 class="section-title">⚠️ Adventure Activity Costs</h2>
+
+<div class="overview">
+
+<div class="card">
+<h3>🪂 Paragliding</h3>
+<p>₹1500–₹3000 per person</p>
+</div>
+
+<div class="card">
+<h3>🚣 River Rafting</h3>
+<p>₹800–₹1500 per person</p>
+</div>
+
+<div class="card">
+<h3>🏎️ ATV Ride</h3>
+<p>₹500–₹1200 depending on route</p>
+</div>
+
+<div class="card">
+<h3>🎢 Zipline</h3>
+<p>₹500–₹1000 per person</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PACKING -->
+
+<section class="container">
+
+<h2 class="section-title">🧳 Packing Checklist</h2>
+
+<div class="card">
+
+<div class="badge">Rain Jacket</div>
+<div class="badge">Quick Dry Clothes</div>
+<div class="badge">Thermals</div>
+<div class="badge">Power Bank</div>
+<div class="badge">Medicines + ORS</div>
+<div class="badge">Sports Shoes</div>
+<div class="badge">Waterproof Pouch</div>
+<div class="badge">Sunscreen</div>
+<div class="badge">Offline Maps</div>
+<div class="badge">Cash for Remote Areas</div>
+
+</div>
+
+</section>
+
+<!-- NOTES -->
+
+<section class="container">
+
+<h2 class="section-title">📌 Important Notes</h2>
+
+<div class="notes">
+
+<ul>
+<li>Start mountain rides early morning</li>
+<li>Avoid riding scooters after sunset</li>
+<li>Rohtang & Chandratal weather changes quickly</li>
+<li>Keep buffer time for landslides or traffic</li>
+<li>Always inspect rental scooty before taking</li>
+<li>Carry original ID proofs</li>
+<li>June is peak season — prebook buses & hotels</li>
+<li>Keep one flexible backup day if weather changes</li>
+</ul>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h2>🏔️ Manali Adventure Trip 2026</h2>
+
+<p>
+Adventure • Cafes • Mountains • Waterfalls • Roads • Memories ❤️
+</p>
+
+<p style="margin-top:15px;">
+Hyderabad → Delhi → Manali → Kasol → Delhi → Hyderabad
+</p>
+
+</footer>
+
+</body>
+</html>
